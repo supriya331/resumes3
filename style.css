@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Urbanist:wght@200;300;400&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left_side
+{
+   position: relative;
+   background: #003147;
+   padding: 40px;
+}
+.container .right_side
+{
+    position: relative;
+    background:#fff;
+    padding: 40px;
+}
+.heading
+{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+.pers_details{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    }
+ .pers_details p{
+    padding-top: 10px;
+ }   
+.pers_details ul{
+    position: relative;
+} 
+.pers_details ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+} 
+.pers_details ul li .icon{
+     display: inline-block;
+     width: 30px;
+     font-size: 18px;
+     color: #03a9f4;
+}  
+.about{
+    
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.skills{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
